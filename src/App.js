@@ -5,6 +5,8 @@ import React from "react"
 
 export default function App() {
 
+  
+  React.useEffect(()=>fetchQuote,[count]);
   const [quotes,setQuotes] = React.useState("It isn't what happens to us that causes us to suffer; it's what we say to ourselves about what happens.");
   const [author,setAuthor] = React.useState("Pema Chödrön");
   const [count,changeCount] = React.useState(0);
@@ -20,10 +22,9 @@ export default function App() {
     setQuotes(data.content);
     setAuthor(data.author);
   }
-  React.useEffect(()=>fetchQuote,[count]);
 
   function click(){    
-    changeCount(count+1);
+    fetchQuote();
   }
 
   return (
