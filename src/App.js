@@ -6,11 +6,7 @@ import React from "react"
 export default function App() {
 
   
-  React.useEffect(()=>fetchQuote,[count]);
-  const [quotes,setQuotes] = React.useState("It isn't what happens to us that causes us to suffer; it's what we say to ourselves about what happens.");
-  const [author,setAuthor] = React.useState("Pema Chödrön");
-  const [count,changeCount] = React.useState(0);
-
+  React.useEffect(()=>fetchQuote,[quotes]);
   
   async function fetchQuote(){
     let response = await fetch('http://api.quotable.io/random');
@@ -22,6 +18,10 @@ export default function App() {
     setQuotes(data.content);
     setAuthor(data.author);
   }
+  const [quotes,setQuotes] = React.useState("");
+  const [author,setAuthor] = React.useState("");
+
+  
 
   function click(){    
     fetchQuote();
