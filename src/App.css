@@ -1,7 +1,18 @@
+:root{
+  --PrimaryColor : rgb(36, 36, 36);
+  --HeaderColor :   rgb(17, 17, 17);
+}
+
 body{
-  background:linear-gradient(-45deg,blue 20%,skyblue 50%);
-  background-repeat: no-repeat;
+  background-color: var(--PrimaryColor);
   height: 100vh;
+}
+
+.title-section{
+  background-color: var(--HeaderColor);
+  width : 100vw;
+  color : white;
+  padding: 1px 3px 1px 50px;
 }
 
 .App{
@@ -36,23 +47,34 @@ body{
   cursor: pointer;
   caret-color: transparent;
   color:black;
-  transition: background-color 0.8s ease-in-out,color 0.8s ease-in-out;
+  transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out;
 }
 #new-quote:hover{
   background-color: rgb(19, 7, 87);
   color: white;
 }
 
-#tweet-quote > img{
+#tweet-quote{  
+  text-decoration: none;
+}
+
+.social-button{
+  background-color: var(--HeaderColor);
+  display: flex;
+  width: 160px;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.social-button > img{
   width:50px;
   height: 50px;
   margin-top: 0px;
+  margin-left: 15px;
   caret-color: transparent;
-  transition: width 0.2s ease-in,height 0.2s ease-in-out;
-}
-#tweet-quote > img:hover{
-  width:  55px;
-  height: 55px;
   transition: width 0.2s ease-in,height 0.2s ease-in-out;
 }
 
