@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cb552ffa793d7576da3a",
-    "url": "/quotegenapp/static/css/main.26477cf9.chunk.css"
+    "revision": "1ca57a19ec1eb04b97a4",
+    "url": "/quotegenapp/static/css/main.adba7cdb.chunk.css"
   },
   {
-    "revision": "cb552ffa793d7576da3a",
-    "url": "/quotegenapp/static/js/main.cb552ffa.chunk.js"
+    "revision": "1ca57a19ec1eb04b97a4",
+    "url": "/quotegenapp/static/js/main.1ca57a19.chunk.js"
   },
   {
     "revision": "7ab2393a9ad8c2b58dcd",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/quotegenapp/static/media/logo.06e73328.svg"
   },
   {
-    "revision": "9759ed8a250e0cd984643a6ed4fb7556",
+    "revision": "af85d37f0b8d153f69ca1ffcb14282d3",
     "url": "/quotegenapp/index.html"
   }
 ];

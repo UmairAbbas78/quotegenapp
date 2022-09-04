@@ -1,7 +1,7 @@
 {
-  "main.css": "/quotegenapp/static/css/main.26477cf9.chunk.css",
-  "main.js": "/quotegenapp/static/js/main.cb552ffa.chunk.js",
-  "main.js.map": "/quotegenapp/static/js/main.cb552ffa.chunk.js.map",
+  "main.css": "/quotegenapp/static/css/main.adba7cdb.chunk.css",
+  "main.js": "/quotegenapp/static/js/main.1ca57a19.chunk.js",
+  "main.js.map": "/quotegenapp/static/js/main.1ca57a19.chunk.js.map",
   "static/js/1.7ab2393a.chunk.js": "/quotegenapp/static/js/1.7ab2393a.chunk.js",
   "static/js/1.7ab2393a.chunk.js.map": "/quotegenapp/static/js/1.7ab2393a.chunk.js.map",
   "static/js/2.3f74f144.chunk.js": "/quotegenapp/static/js/2.3f74f144.chunk.js",
@@ -9,8 +9,8 @@
   "runtime~main.js": "/quotegenapp/static/js/runtime~main.4afd38f1.js",
   "runtime~main.js.map": "/quotegenapp/static/js/runtime~main.4afd38f1.js.map",
   "static/media/logo.svg": "/quotegenapp/static/media/logo.06e73328.svg",
-  "static/css/main.26477cf9.chunk.css.map": "/quotegenapp/static/css/main.26477cf9.chunk.css.map",
+  "static/css/main.adba7cdb.chunk.css.map": "/quotegenapp/static/css/main.adba7cdb.chunk.css.map",
   "index.html": "/quotegenapp/index.html",
-  "precache-manifest.55b393be5e96660cca95efc9381a0f7f.js": "/quotegenapp/precache-manifest.55b393be5e96660cca95efc9381a0f7f.js",
+  "precache-manifest.2aa93db19b2b0300428fc569bbbfe783.js": "/quotegenapp/precache-manifest.2aa93db19b2b0300428fc569bbbfe783.js",
   "service-worker.js": "/quotegenapp/service-worker.js"
 }
