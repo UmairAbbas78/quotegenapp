@@ -9,7 +9,7 @@ export default function App() {
   React.useEffect(()=>fetchQuote,[quotes]);
   
   async function fetchQuote(){
-    let response = await fetch('http://api.quotable.io/random');
+    let response = await fetch('https://api.quotable.io/random');
     let data = await response.json();
     if(response){
       console.log(data.content);
@@ -29,6 +29,9 @@ export default function App() {
 
   return (
     <div className="App">
+      <div className="title-section">
+        <h4 className='title'>Okra's Quote Generator</h4>
+      </div>
       <Quote qoute = {quotes} author = {author} changeQuote={click}/>
     </div>
   ); 
